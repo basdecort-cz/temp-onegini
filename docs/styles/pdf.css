@@ -1,0 +1,21 @@
+h1, h2 {
+    color: #00aeef;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: HelveticaNeue-Light;
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+
+h3, h4, h5, h6 {
+    color: black;
+}
+
+b, strong {
+    font-family: sans-serif;
+}
+
+table {
+    font-size: small;
+}

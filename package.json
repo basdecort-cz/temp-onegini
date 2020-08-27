@@ -1,0 +1,53 @@
+{
+  "name": "cordova-plugin-onegini",
+  "version": "6.3.0",
+  "description": "Onegini Cordova Plugin",
+  "cordova": {
+    "id": "cordova-plugin-onegini",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "engines": {
+    "cordova": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onegini/cordova-plugin-onegini.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "onegini",
+    "msp",
+    "mobile-security-platform",
+    "security"
+  ],
+  "author": "Onegini B.V.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "email": "support@onegini.com"
+  },
+  "homepage": "https://github.com/Onegini/cordova-plugin-onegini#readme",
+  "scripts": {
+    "build": "NODE_ENV=development webpack",
+    "build:prod": "NODE_ENV=production webpack",
+    "prepublishOnly": "npm run build:prod"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/runtime-corejs2": "^7.7.6",
+    "babel-loader": "^8.0.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "np": "^5.2.1",
+    "text-encoding": "^0.7.0",
+    "terser-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {}
+}

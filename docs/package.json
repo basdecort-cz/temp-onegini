@@ -1,0 +1,20 @@
+{
+  "name": "cordova-plugin-onegini",
+  "version": "0.0.1",
+  "dependencies": {
+    "onegini-documentation-parent": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "clean": "rm -fr */_book node_modules */node_modules",
+    "internal": "gitbook serve internal",
+    "public": "gitbook serve public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Onegini/cordova-plugin-onegini"
+  },
+  "author": "Onegini B.V.",
+  "license": "UNLICENSED",
+  "private": true
+}

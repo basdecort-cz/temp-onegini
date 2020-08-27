@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-onegini-tests",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-onegini-tests",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "Onegini B.V.",
+  "license": "Apache-2.0"
+}

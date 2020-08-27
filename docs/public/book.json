@@ -1,0 +1,33 @@
+{
+  "gitbook": "2.x.x",
+  "title": "Onegini Cordova plugin",
+  "description": "Official documentation for the Onegini Cordova plugin.",
+  "plugins": [
+    "expandable-chapters",
+    "toc",
+    "anker-enable",
+    "prism",
+    "-highlight",
+    "websequencediagrams-generator",
+    "onegini-styling",
+    "-fontsettings"
+  ],
+  "pluginsConfig": {},
+  "styles": {
+    "pdf": "styles/pdf.css",
+    "epub": "styles/pdf.css"
+  },
+  "links": {
+    "gitbook": false,
+    "sharing": {
+      "google": false,
+      "facebook": false,
+      "twitter": false,
+      "weibo": false,
+      "all": false
+    }
+  },
+  "variables":{
+    "app_config_mobile_authentication":"https://docs.onegini.com/msp/stable/token-server/topics/mobile-apps/mobile-authentication/mobile-authentication.html"
+  }
+}

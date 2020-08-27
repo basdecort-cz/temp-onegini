@@ -1,0 +1,33 @@
+{
+  "gitbook": "2.x.x",
+  "title": "Onegini Cordova plugin",
+  "description": "Internal documentation for the Onegini Cordova plugin.",
+  "plugins": [
+    "expandable-chapters",
+    "toc",
+    "anker-enable",
+    "prism",
+    "-highlight",
+    "websequencediagrams-generator",
+    "onegini-styling",
+    "-fontsettings"
+  ],
+  "pluginsConfig": {},
+  "styles": {
+    "pdf": "styles/pdf.css",
+    "epub": "styles/pdf.css"
+  },
+  "links": {
+    "gitbook": false,
+    "sharing": {
+      "google": false,
+      "facebook": false,
+      "twitter": false,
+      "weibo": false,
+      "all": false
+    }
+  },
+  "variables": {
+    "cordova_example_app" : "https://github.com/Onegini/cordova-example-app"
+  }
+}
